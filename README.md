@@ -6,7 +6,7 @@
 
 > :warning: This implementation guide is based on FHIR R5 (5.0.0-snapshot3).
 
-* View the [Implementation Guide](https://screen4care.github.io/Screen4Care-guide-v2/).
+* View the [Implementation Guide](https://screen4care.github.io/Screen4Care-IG/).
 
 ## Authors (alphabetic order)
 * Miriam Hübner (Charité -- Universitätsmedizin Berlin)
