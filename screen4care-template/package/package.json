@@ -7,7 +7,7 @@
     "author": "Screen4Care",
     "base": "fhir.base.template",
     "dependencies": {
-      "fhir.base.template": "current",
-      "hl7.fhir.r4.core": "4.0.1"
+        "fhir.base.template": "0.4.0",
+        "hl7.fhir.r5.core": "5.0.0-snapshot3"
     }
   }
