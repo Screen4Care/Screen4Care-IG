@@ -1,23 +1,27 @@
-id: ebm-cpg.netzwerk-universitaetsmedizin.de
-canonical: https://www.netzwerk-universitaetsmedizin.de/fhir/cpg-on-ebm-on-fhir
-name: CPG-on-EBMonFHIR
-title: Clinical Practice Guidelines (CPG) on EBMonFHIR
+# ╭──────────────────────────────────────ImplementationGuide───────────────────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. For a list of       │
+# │  supported properties, see: https://fshschool.org/docs/sushi/configuration/                    │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+id: screen4care.netzwerk-universitaetsmedizin.de
+canonical: "https://www.netzwerk-universitaetsmedizin.de/fhir/screen4care"
+name: Screen4Care
+title: Screen4Care Implementation Guide
 status: draft
-version: 0.6.1-snapshot
+version: 0.1.0
 fhirVersion: 5.0.0
 copyrightYear: 2021+
 releaseLabel: ci-build
 publisher:
-  name: Universitätsmedizin Greifswald
-  url: https://www.med.uni-greifswald.de/
-
+  name: Charité - Universitätsmedizin Berlin
+  url: https://www.netzwerk-universitaetsmedizin.de
+  
 dependencies:
   hl7.fhir.uv.cpg:
     version: 1.0.0
 
 pages:
   index.md:
-    title: Clinical Practice Guidelines (CPG) on EBMonFHIR
+    title: NAPKON Module Template
   profiles.md:
   codesystems.md:
     title: Code Systems
@@ -26,18 +30,17 @@ pages:
   extensions.md:
   examples.md:
   downloads.xml:
-  history.md:
-
+  changelog.md:
+    title: Change Log
 
 menu:
   Home: index.html
   Profiles: profiles.html
   Code Systems: codesystems.html
   Value Sets: valuesets.html
-  Extensions: extensions.html
   Examples: examples.html
   Downloads: downloads.html
-  History: history.html
+  Change Log: changelog.html
 
 parameters:  # see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
   active-tables: 'true' # Whether to generate active tables in the generated fragments (tables that will expand and contract).
@@ -55,3 +58,4 @@ parameters:  # see https://confluence.hl7.org/display/FHIR/Implementation+Guide+
   extension-domain: # An external domain from which extensions are allowed to come (else they'll be flagged as invalid when validating).
   - https://www.netzwerk-universitaetsmedizin.de
   - https://simplifier.net
+
