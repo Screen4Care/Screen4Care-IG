@@ -1,8 +1,8 @@
 contact:
-- name: "Universit\xE4tsmedizin Greifswald"
+- name: "Charité - Universitätsmedizin Berlin"
   telecom:
   - system: url
-    value: https://www.med.uni-greifswald.de/
+    value: https://www.charite.de
 definition:
   page:
     generation: html
@@ -11,7 +11,7 @@ definition:
     - generation: markdown
       name: index.html
       sourceUrl: index.html
-      title: Clinical Practice Guidelines (CPG) on EBMonFHIR
+      title: Screen4Care Implementation Guide
     - generation: markdown
       name: profiles.html
       sourceUrl: profiles.html
