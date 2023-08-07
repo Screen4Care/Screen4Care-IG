@@ -870,11 +870,11 @@ dependsOn:
 fhirVersion:
 - 5.0.0
 id: ebm-cpg.netzwerk-universitaetsmedizin.de
-name: CPGonEBMonFHIR
+name: Screen4CareIG
 packageId: ebm-cpg.netzwerk-universitaetsmedizin.de
-publisher: "Universit\xE4tsmedizin Greifswald"
+publisher: "Charité - Universitätsmedizin Berlin"
 resourceType: ImplementationGuide
 status: draft
-title: Clinical Practice Guidelines (CPG) on EBMonFHIR
+title: Screen4Care Implementation Guide
 url: https://www.netzwerk-universitaetsmedizin.de/fhir/cpg-on-ebm-on-fhir/ImplementationGuide/ebm-cpg.netzwerk-universitaetsmedizin.de
 version: 0.6.1-snapshot
