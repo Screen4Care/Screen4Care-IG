@@ -49,5 +49,5 @@ else
   echo "Running release build..."
   set_release_label "qa-preview" # frozen snapshot for non-ballot feedback; see #https://fshschool.org/docs/sushi/configuration/#fsh-and-ig-processing-minimum-configuration
   java -jar $publisher -ig . -publish $targetUrl $*
-  find ./output -name "*.html" -exec sed -i "s/Publication Build: This will be filled in by the publication tooling/This page is part of the CPG-on-EBMonFHIR Implementation Guide ($version)./g" {} +
+  find ./output -name "*.html" -exec sed -i "s/Publication Build: This will be filled in by the publication tooling/This page is part of the Screen4Care Implementation Guide ($version)./g" {} +
 fi
